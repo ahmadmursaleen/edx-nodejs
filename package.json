@@ -1,0 +1,23 @@
+{
+  "name": "edx-nodejs",
+  "version": "1.0.0",
+  "description": "Microsoft: DEV283x Introduction to NodeJS",
+  "main": "web-crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadmursaleen/edx-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadmursaleen/edx-nodejs/issues"
+  },
+  "homepage": "https://github.com/ahmadmursaleen/edx-nodejs#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
