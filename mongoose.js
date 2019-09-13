@@ -34,3 +34,11 @@ var post = new Post({
     "This essay will give you a quick introduction to ES6. If you don’t know what is ES6, it’s a new JavaScript implementation.",
   comments: ca
 });
+
+post.save(function(err) {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("The post is saved: ", post.toJSON());
+  }
+});
