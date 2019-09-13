@@ -42,3 +42,12 @@ post.save(function(err) {
     console.log("The post is saved: ", post.toJSON());
   }
 });
+
+// Populate
+Post.findOne({ name: /Top 10 ES6/i })
+  .populate("comments")
+  .exec(function(err, post) {
+    if (err) return console.error(err);
+    console.log(`The post is ${post}`);
+    mongoose.disconnect();
+  });
