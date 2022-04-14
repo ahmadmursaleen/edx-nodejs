@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ahmadmursaleen/edx-nodejs#readme",
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "body-parser": "^1.19.0",
     "csvtojson": "^2.0.10",
     "errorhandler": "^1.5.1",
